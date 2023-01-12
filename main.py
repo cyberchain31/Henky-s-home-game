@@ -212,6 +212,7 @@ while lets_continue:
                     # Speed default
                     eric_current_speed = eric_speed
                     pygame.mixer.music.play(3)
+                    hankey_img_rect.center = (775, 70)
                     kenny_img_rect.center = (45, height // 2)
                     pause = False
                 elif event.type == pygame.QUIT:
